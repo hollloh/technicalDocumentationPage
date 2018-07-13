@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title>Technical Documentation Page</title>
+</head>
+<body>
+  <div id='space-for-fcc'></div>
+    <nav id='navbar'>
+      <header>Technical Document Reference</header>
+      <a class='nav-link' href='#Header_One'>Header One</a>
+      <a class='nav-link' href='#Factorial'>Factorial</a>
+      <a class='nav-link' href='#Header_Three'>Header Three</a>
+      <a class='nav-link' href='#Header_Four'>Header Four</a>
+      <a class='nav-link' href='#Header_Five'>Header Five</a>
+      <a class='nav-link' href='#Header_Six'>Header Six</a>
+      <a class='nav-link' href='#Header_Seven'>Header Seven</a>
+      <a class='nav-link' href='#Header_Eight'>Header Eight</a>
+      <a class='nav-link' href='#Header_Nine'>Header Nine</a>
+      <a class='nav-link' href='#Header_Ten'>Header Ten</a>
+      <a class='nav-link' href='#Header_Eleven'>Header Eleven</a>
+      <a class='nav-link' href='#Header_Twelve'>Header Twelve</a>
+      <a class='nav-link' href='#Header_Thirteen'>Header Thirteen</a>
+      <a class='nav-link' href='#Header_Fourteen'>Header Fourteen</a>
+      <a class='nav-link' href='#Header_Fifteen'>Header Fifteen</a>
+      <a class='nav-link' href='#Header_Sixteen'>Header Sixteen</a>
+      <a class='nav-link' href='#Header_Seventeen'>Header Seventeen</a>
+      <a class='nav-link' href='#Header_Eighteen'>Header Eighteen</a>
+      <a class='nav-link' href='#Header_Nineteen'>Header Nineteen</a>
+      <a class='nav-link' href='#Header_Twenty'>Header Twenty</a>
+      <a class='nav-link' href='#Header_Twenty_One'>Header Twenty One</a>
+      <a class='nav-link' href='#Header_Twenty_Two'>Header Twenty Two</a>
+      <a class='nav-link' href='#Header_Twenty_Three'>Header Twenty Three</a>
+      <a class='nav-link' href='#Header_Twenty_Four'>Header Twenty Four</a>
+      <a class='nav-link' href='#Header_Twenty_Five'>Header Twenty Five</a>
+      <a class='nav-link' href='#Header_Twenty_Six'>Header Twenty Six</a>
+      <a class='nav-link' href='#Header_Twenty_Seven'>Header Twenty Seven</a>
+    </nav>
+    <main id='main-doc'>
+      <section id='Header_One' class='main-section'>
+        <header>Header One</header>
+        <p>paragraph</p>
+        <p>paragraph</p>
+        <div class='code-div'><code>code</code></div>
+        <ul>
+          <li>list item</li>
+          <li>list item</li>
+          <li>list item</li>
+        </ul>
+      </section>
+
+      <section id='Factorial' class='main-section'>
+        <header>Factorial</header>
+        <p>In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.</p>
+        <p>For example, 5 ! = 5 × 4 × 3 × 2 × 1 = 120.</p>
+        <p>The value of 0! is 1, according to the convention for an empty product.</p>
+        <p>The factorial operation is encountered in many areas of mathematics, notably in combinatorics, algebra, and mathematical analysis. Its most basic occurrence is the fact that there are n! ways to arrange n distinct objects into a sequence (i.e., permutations of the set of objects). This fact was known at least as early as the 12th century, to Indian scholars. Fabian Stedman, in 1677, described factorials as applied to change ringing. After describing a recursive approach, Stedman gives a statement of a factorial (using the language of the original):</p>
+        <p class='quote'>"Now the nature of these methods is such, that the changes on one number comprehends [includes] the changes on all lesser numbers, ... insomuch that a compleat Peal of changes on one number seemeth to be formed by uniting of the compleat Peals on all lesser numbers into one entire body;"</p>
+        <p>The notation n! was introduced by the French mathematician Christian Kramp in 1808.</p>
+        <p>The definition of the factorial function can also be extended to non-integer arguments, while retaining its most important properties; this involves more advanced mathematics, notably techniques from mathematical analysis.</p>
+        <p>Here's one way to find the factorial of a positive integer in javascript:</p>
+        <div class='code-div'><pre><code>var cache = [];
+function factorialOf(num) {
+  if (num == 0 || num == 1) {
+    return 1;
+  }
+  if (cache[num] > 0) {
+    return cache[num];    
+  }
+  return cache[num] = factorialOf(num - 1) * num;
+}</code></pre></div>
+      </section>
+
+      <section id='Header_Three' class='main-section'>
+        <header>Header Three</header>
+        <p>paragraph</p>
+        <p>paragraph</p>
+        <div class='code-div'><code>code</code></div>
+      </section>
+
+      <section id='Header_Four' class='main-section'>
+        <header>Header Four</header>
+        <p>paragraph</p>
+        <p>paragraph</p>
+        <div class='code-div'><code>code</code></div>
+        <ol>
+          <li>ordered list item</li>
+          <li>ordered list item</li>
+        </ol>
+      </section>
+
+      <section id='Header_Five' class='main-section'>
+        <header>Header Five</header>
+        <p>paragraph</p>
+        <p>paragraph</p>
+        <div class='code-div'><code>code</code></div>
+      </section>
+
+      <section id='Header_Six' class='main-section'>
+        <header>Header Six</header>
+      </section>
+
+      <section id='Header_Seven' class='main-section'>
+        <header>Header Seven</header>
+      </section>
+
+      <section id='Header_Eight' class='main-section'>
+        <header>Header Eight</header>
+      </section>
+
+      <section id='Header_Nine' class='main-section'>
+        <header>Header Nine</header>
+      </section>
+
+      <section id='Header_Ten' class='main-section'>
+        <header>Header Ten</header>
+      </section>
+
+      <section id='Header_Eleven' class='main-section'>
+        <header>Header Eleven</header>
+      </section>
+
+      <section id='Header_Twelve' class='main-section'>
+        <header>Header Twelve</header>
+      </section>
+
+      <section id='Header_Thirteen' class='main-section'>
+        <header>Header Thirteen</header>
+      </section>
+
+      <section id='Header_Fourteen' class='main-section'>
+        <header>Header Fourteen</header>
+      </section>
+
+      <section id='Header_Fifteen' class='main-section'>
+        <header>Header Fifteen</header>
+      </section>
+
+      <section id='Header_Sixteen' class='main-section'>
+        <header>Header Sixteen</header>
+      </section>
+
+      <section id='Header_Seventeen' class='main-section'>
+        <header>Header Seventeen</header>
+      </section>
+
+      <section id='Header_Eighteen' class='main-section'>
+        <header>Header Eighteen</header>
+      </section>
+
+      <section id='Header_Nineteen' class='main-section'>
+        <header>Header Nineteen</header>
+      </section>
+
+      <section id='Header_Twenty' class='main-section'>
+        <header>Header Twenty</header>
+      </section>
+
+      <section id='Header_Twenty_One' class='main-section'>
+        <header>Header Twenty One</header>
+      </section>
+
+      <section id='Header_Twenty_Two' class='main-section'>
+        <header>Header Twenty Two</header>
+      </section>
+
+      <section id='Header_Twenty_Three' class='main-section'>
+        <header>Header Twenty Three</header>
+      </section>
+
+      <section id='Header_Twenty_Four' class='main-section'>
+        <header>Header Twenty Four</header>
+      </section>
+
+      <section id='Header_Twenty_Five' class='main-section'>
+        <header>Header Twenty Five</header>
+      </section>
+
+      <section id='Header_Twenty_Six' class='main-section'>
+        <header>Header Twenty Six</header>
+      </section>
+
+      <section id='Header_Twenty_Seven' class='main-section'>
+        <header>Header Twenty Seven</header>
+      </section>
+  
+  
+
+    </main>
+  </div>
+
+
+  <script src='script.js'></script>
+</body>
+</html>
