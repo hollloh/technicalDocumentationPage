@@ -126,21 +126,3 @@ li {
   }
 
 }
-
-/*
-@media screen and (min-width: 1000px) {
-  #flex {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #navbar {
-    flex: 1;
-  }
-
-  main {
-    flex: 5;
-  }
-  
-}
-*/
